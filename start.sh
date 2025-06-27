@@ -4,7 +4,6 @@ if [ -z $UPSTREAM_REPO ]
 fi
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /LazyPrincess
-fi
 cd /LazyPrincess
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
