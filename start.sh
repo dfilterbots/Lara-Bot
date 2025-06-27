@@ -3,6 +3,7 @@ then
   echo "Cloning main Repository"
   git clone https://github.com/lazyindu/test1.git /LazyPrincess
 else
+fi
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /LazyPrincess
 fi
